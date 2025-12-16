@@ -128,11 +128,11 @@ function App() {
             </div>
             
             <div className="relative">
-              <div className="bg-gradient-to-br from-nexagreen/10 to-nexagold/10 rounded-2xl p-8 h-96 flex items-center justify-center">
+              <div className="rounded-2xl overflow-hidden h-96">
                 <img 
                   src="/logo.svg" 
                   alt="NexaBridge Consulting Logo" 
-                  className="w-full h-full object-contain p-4"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
